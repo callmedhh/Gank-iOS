@@ -12,6 +12,7 @@
 		A0F895961E55482600825B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F895951E55482600825B7C /* Assets.xcassets */; };
 		A0F895991E55482600825B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F895971E55482600825B7C /* LaunchScreen.storyboard */; };
 		A0F895A41E5584A300825B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F895A31E5584A300825B7C /* ViewController.swift */; };
+		A0F895A91E56EE3500825B7C /* SegmentioBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F895A81E56EE3500825B7C /* SegmentioBuilder.swift */; };
 		B1A90A3A083A8AD79569A379 /* Pods_Gank_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A7E76586DF22A9B9BCDFB3 /* Pods_Gank_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A0F895981E55482600825B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F8959A1E55482600825B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F895A31E5584A300825B7C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0F895A81E56EE3500825B7C /* SegmentioBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioBuilder.swift; sourceTree = "<group>"; };
 		E75EA371A8781FF0CF0A6951 /* Pods-Gank-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gank-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gank-iOS/Pods-Gank-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			children = (
 				A0F8958E1E55482600825B7C /* AppDelegate.swift */,
 				A0F895A01E55847A00825B7C /* General */,
+				A0F895A71E56EE0F00825B7C /* Builder */,
 				A0F895A51E5584B500825B7C /* Models */,
 				A0F895A61E5584B500825B7C /* Tools */,
 				A0F895921E55482600825B7C /* Main.storyboard */,
@@ -118,6 +121,15 @@
 			);
 			path = Tools;
 			sourceTree = "<group>";
+		};
+		A0F895A71E56EE0F00825B7C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A0F895A81E56EE3500825B7C /* SegmentioBuilder.swift */,
+			);
+			name = Builder;
+			path = "Gank-iOS/Builder";
+			sourceTree = SOURCE_ROOT;
 		};
 		EF8F7F8B779D236BB7B844B8 /* Pods */ = {
 			isa = PBXGroup;
@@ -255,6 +267,7 @@
 			files = (
 				A0F895A41E5584A300825B7C /* ViewController.swift in Sources */,
 				A0F8958F1E55482600825B7C /* AppDelegate.swift in Sources */,
+				A0F895A91E56EE3500825B7C /* SegmentioBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

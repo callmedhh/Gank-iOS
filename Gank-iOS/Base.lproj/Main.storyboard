@@ -20,8 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="sIZ-YZ-NGy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqI-ZQ-LDw" customClass="Segmentio" customModule="Segmentio">
+                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="AYl-YU-7O1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zqI-ZQ-LDw" secondAttribute="trailing" id="Bxo-H5-46V"/>
+                            <constraint firstItem="zqI-ZQ-LDw" firstAttribute="leading" secondItem="sIZ-YZ-NGy" secondAttribute="leading" id="gdb-Gs-rV5"/>
+                            <constraint firstItem="zqI-ZQ-LDw" firstAttribute="top" secondItem="qg6-xv-jrd" secondAttribute="bottom" id="iIv-rE-LA8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="segmentioView" destination="zqI-ZQ-LDw" id="2xM-ab-agq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SD6-KW-GSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
